@@ -1,0 +1,21 @@
+[
+  {
+    "auditId": "AUDIT-DL-1791821339560-8134",
+    "paymentId": "TEST-123",
+    "planId": "cat1",
+    "planName": "Test Plan",
+    "filename": "Material_Digital.txt",
+    "email": "comprador@almanaquedepaz.com",
+    "gateway": "mercadopago_checkout_pro",
+    "orderId": null,
+    "preferenceId": null,
+    "amount": 2.25,
+    "currency": "USD",
+    "termsAcceptedAt": "2026-10-12T16:08:59.560Z",
+    "downloadTimestamp": "2026-10-12T16:08:59.560Z",
+    "clientIp": "127.0.0.1",
+    "userAgent": "curl/7.88.1",
+    "deliveryStatus": "CONFIRMED_DOWNLOADED_BY_BUYER",
+    "legalNotice": "Consentimiento expreso previo otorgado por el comprador. Renuncia irrevocable al derecho de arrepentimiento/desistimiento tras suministro digital completado (Art. 34 bis Ley 24.240 y Normas de Bienes Intangibles de PayPal y Mercado Pago)."
+  }
+]

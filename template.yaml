@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  Almanaque de Paz - Infraestructura Serverless en Capa Gratuita de AWS
+  API de Pagos y Auditoría de Descargas Seguras
+
+Globals:
+  Function:
+    Timeout: 15
+    MemorySize: 256
+    Runtime: nodejs20.x
+    Architectures:
+      - arm64 # Arquitectura Graviton2 (20% más económica y más rápida dentro de capa gratuita)
+
+Resources:
+  PaymentApiFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./
+      Handler: lambda.handler
+      Description: API de cobro y descargas de Almanaque de Paz
+      Environment:
+        Variables:
+          COTIZACION_DOLAR: "1540"
+          VITE_DEFAULT_ARS_EXCHANGE_RATE: "1540"
+      Events:
+        ApiPaymentsRoot:
+          Type: HttpApi
+          Properties:
+            Path: /api/payments/{proxy+}
+            Method: ANY
+
+Outputs:
+  HttpApiUrl:
+    Description: URL pública del API Gateway para conectar al frontend
+    Value: !Sub "https://${ServerlessHttpApi}.execute-api.${AWS::Region}.amazonaws.com"
