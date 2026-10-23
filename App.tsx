@@ -189,8 +189,8 @@ const HeaderTimeButton: React.FC<HeaderTimeButtonProps> = ({ selectedCountry, on
       title={`Zona horaria y clima: ${selectedCountry.code} ${selectedCountry.city || selectedCountry.name} (${selectedCountry.offset}) · Temperatura: ${weatherInfo ? `${weatherInfo.temp}°C (${weatherInfo.description})` : 'Cargando...'} - Click para cambiar país o ciudad`}
     >
       <span className="text-xs sm:text-base">{selectedCountry.flag}</span>
-      <span className="font-mono text-[10px] sm:text-[11px] font-bold text-stone-800 hidden md:inline truncate max-w-[110px]">
-        {selectedCountry.code} {selectedCountry.city || selectedCountry.name}
+      <span className="font-sans text-[11px] font-bold text-stone-800 hidden md:inline truncate max-w-[120px]">
+        {selectedCountry.city || selectedCountry.name}
       </span>
       {weatherInfo && (
         <span className="flex items-center gap-0.5 text-[10px] sm:text-[11px] text-amber-800 bg-amber-50/90 px-1 sm:px-1.5 py-0.2 rounded-md font-semibold border border-amber-200/60 shadow-2xs">
@@ -1337,7 +1337,7 @@ const App: React.FC = () => {
     const line3 = lang === 'en' ? 'and Self-Esteem' : (lang === 'pt' ? 'e Autoestima' : 'y Autoestima');
 
     return (
-      <header className="app-header px-2.5 sm:px-6 py-1.5 sm:py-2 glass-panel sticky top-2 mx-auto my-1.5 sm:my-2 z-40 rounded-full flex justify-between items-center min-h-[48px] sm:min-h-[64px] shadow-[0_8px_30px_rgba(46,39,33,0.06)] border border-white/85 transition-all w-[calc(100%-12px)] max-w-5xl box-border">
+      <header className="app-header px-2.5 sm:px-5 py-1.5 sm:py-2 glass-panel sticky top-2 mx-auto my-1.5 sm:my-2 z-40 rounded-full flex justify-between items-center min-h-[48px] sm:min-h-[60px] shadow-[0_8px_30px_rgba(46,39,33,0.06)] border border-white/85 transition-all w-[calc(100%-12px)] sm:w-[calc(100%-24px)] max-w-7xl box-border">
         <div 
           className="flex items-center gap-1.5 sm:gap-2.5 cursor-pointer group shrink-0" 
           onClick={() => navigateToView(ViewMode.INTRO)}
@@ -1353,17 +1353,17 @@ const App: React.FC = () => {
               }}
             />
           </div>
-          <div className="flex flex-col justify-center min-w-0">
-            <h1 className="text-xs sm:text-sm md:text-[15px] font-serif font-bold text-sand-900 leading-[1.1] truncate max-w-[130px] xs:max-w-[180px] sm:max-w-none">
+          <div className="flex flex-col justify-center min-w-0 pr-1">
+            <h1 className="text-xs sm:text-sm md:text-[15px] font-serif font-bold text-sand-900 leading-tight whitespace-nowrap">
               {line1}
             </h1>
-            <span className="text-[9px] sm:text-[11px] md:text-xs text-terracotta-700 tracking-wider font-medium leading-[1.15] whitespace-nowrap hidden xs:inline">
+            <span className="text-[9px] sm:text-[11px] text-terracotta-700 tracking-wider font-medium leading-tight whitespace-nowrap hidden lg:inline">
               {line2} {line3}
             </span>
           </div>
         </div>
 
-      <div className="flex items-center gap-1 sm:gap-2 shrink-0">
+      <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
         {/* Botón Volver prominente cuando se está en el Calendario u otra vista */}
         {view !== ViewMode.INTRO && (
           <button
@@ -1666,95 +1666,16 @@ const App: React.FC = () => {
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }} 
           title="Apoya este proyecto por solo $1.25 (Mantras potenciados con imágenes como ojos de amor con paisajes reales)" 
-          className={`px-3 py-1.5 rounded-full border transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs ${
+          className={`px-2.5 sm:px-3 py-1.5 rounded-full border transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs shrink-0 ${
             view === ViewMode.SUPPORT 
               ? 'bg-rose-600 border-rose-600 text-white shadow-sm ring-2 ring-rose-400/30' 
               : 'bg-rose-50/90 border-rose-200 text-rose-700 hover:bg-rose-100'
           }`}
         >
           <Heart className={`w-3.5 h-3.5 ${view === ViewMode.SUPPORT ? 'fill-white' : 'text-rose-500 fill-rose-500'}`} />
-          <span className="hidden sm:inline">Apoya este proyecto</span>
+          <span className="hidden sm:inline">Apoya</span>
           <span className="bg-rose-200/70 text-rose-800 text-[10px] px-1.5 py-0.2 rounded-full font-bold">
             $1.25
-          </span>
-        </button>
-
-        {/* Reflexiones Diarias de Amor Propio (TikTok) por $1.75 */}
-        <button 
-          onClick={() => {
-            setView(ViewMode.TIKTOK);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }} 
-          title="Reflexiones Diarias de Amor Propio ($1.75) - Un espacio sagrado e independiente" 
-          className={`px-3 py-1.5 rounded-full border transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs ${
-            view === ViewMode.TIKTOK 
-              ? 'bg-stone-900 border-stone-900 text-rose-300 shadow-sm ring-2 ring-rose-400/30' 
-              : 'bg-stone-900/90 border-rose-900/40 text-rose-200 hover:bg-stone-800'
-          }`}
-        >
-          <Video className="w-3.5 h-3.5 text-rose-400" />
-          <span className="hidden sm:inline">Reflexiones TikTok</span>
-          <span className="bg-rose-500/20 text-rose-300 text-[10px] px-1.5 py-0.2 rounded-full font-bold border border-rose-500/30">
-            $1.75
-          </span>
-        </button>
-
-        {/* Reflexiones Diarias de Amor Propio (YouTube) por $1.75 */}
-        <button 
-          onClick={() => {
-            setView(ViewMode.YOUTUBE);
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          }} 
-          title="Reflexiones Diarias de Amor Propio ($1.75) - Un espacio sagrado e independiente" 
-          className={`px-3 py-1.5 rounded-full border transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs ${
-            view === ViewMode.YOUTUBE 
-              ? 'bg-stone-900 border-stone-900 text-red-300 shadow-sm ring-2 ring-red-400/30' 
-              : 'bg-stone-900/90 border-red-900/40 text-red-200 hover:bg-stone-800'
-          }`}
-        >
-          <Youtube className="w-3.5 h-3.5 text-red-400 fill-red-400" />
-          <span className="hidden sm:inline">Reflexiones YouTube</span>
-          <span className="bg-red-500/20 text-red-300 text-[10px] px-1.5 py-0.2 rounded-full font-bold border border-red-500/30">
-            $1.75
-          </span>
-        </button>
-
-        {/* Pase y Reflexiones de Instagram por $1.75 */}
-        <button 
-          onClick={() => handleOpenSocialAction('instagram')} 
-          title="Pase y Reflexiones de Instagram ($1.75 USD) - Lógica de pago y redirección a mis redes" 
-          className="px-3 py-1.5 rounded-full border border-rose-300/60 bg-gradient-to-r from-amber-500 via-rose-500 to-purple-600 hover:opacity-95 text-white transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs hover:scale-102 active:scale-98"
-        >
-          <Instagram className="w-3.5 h-3.5 text-white" />
-          <span className="hidden sm:inline">Instagram</span>
-          <span className="bg-white/25 text-white text-[10px] px-1.5 py-0.2 rounded-full font-bold border border-white/30">
-            $1.75
-          </span>
-        </button>
-
-        {/* Pase y Comunidad de Facebook por $1.75 */}
-        <button 
-          onClick={() => handleOpenSocialAction('facebook')} 
-          title="Pase y Comunidad de Facebook ($1.75 USD) - Lógica de pago y redirección a mis redes" 
-          className="px-3 py-1.5 rounded-full border border-blue-400/60 bg-[#1877F2] hover:bg-[#166fe5] text-white transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs hover:scale-102 active:scale-98"
-        >
-          <Facebook className="w-3.5 h-3.5 text-white fill-white" />
-          <span className="hidden sm:inline">Facebook</span>
-          <span className="bg-white/25 text-white text-[10px] px-1.5 py-0.2 rounded-full font-bold border border-white/30">
-            $1.75
-          </span>
-        </button>
-
-        {/* Pase y Entradas de Blogger por $1.75 */}
-        <button 
-          onClick={() => handleOpenSocialAction('blogger')} 
-          title="Pase y Entradas de Blogger ($1.75 USD) - Lógica de pago y redirección a mis redes" 
-          className="px-3 py-1.5 rounded-full border border-amber-400/60 bg-gradient-to-r from-orange-500 to-amber-500 hover:opacity-95 text-white transition-all flex items-center gap-1.5 cursor-pointer text-xs font-semibold shadow-xs hover:scale-102 active:scale-98"
-        >
-          <Globe className="w-3.5 h-3.5 text-white" />
-          <span className="hidden sm:inline">Blogger</span>
-          <span className="bg-white/25 text-white text-[10px] px-1.5 py-0.2 rounded-full font-bold border border-white/30">
-            $1.75
           </span>
         </button>
 

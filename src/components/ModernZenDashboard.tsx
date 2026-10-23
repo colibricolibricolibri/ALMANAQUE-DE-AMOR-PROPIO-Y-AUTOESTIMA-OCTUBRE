@@ -215,27 +215,27 @@ export const ModernZenDashboard: React.FC<ModernZenDashboardProps> = ({
   return (
     <div className="relative min-h-[calc(100vh-80px)] py-6 md:py-12 px-3 sm:px-6 z-10">
       
-      {/* Barra de accesos directos: Celular primero (carrusel táctil fluido) y expandido en Tablet / Notebook */}
-      <div className="max-w-6xl mx-auto mb-4 sm:mb-6 px-1 sm:px-4">
-        <div className="flex items-center justify-start lg:justify-between gap-2 overflow-x-auto pb-1.5 scrollbar-none">
-          <button
-            onClick={onOpenTimezoneModal}
-            className="flex items-center gap-1.5 sm:gap-2 text-xs font-semibold text-stone-700 bg-white/85 hover:bg-white backdrop-blur-md px-3 sm:px-4 py-1.5 rounded-full border border-stone-200/80 shadow-2xs transition-all cursor-pointer group shrink-0"
-            title="Click para ajustar la ciudad, zona horaria y clima"
-          >
-            <span className="text-sm sm:text-base">{selectedCountry.flag}</span>
-            <span className="font-serif text-stone-900 font-bold">{selectedCountry.code} {selectedCountry.city || selectedCountry.name}</span>
-            {weatherInfo && (
-              <span className="flex items-center gap-1 text-[10px] sm:text-[11px] font-bold text-amber-900 bg-amber-100/90 px-1.5 sm:px-2 py-0.5 rounded-full border border-amber-300/60 shadow-2xs">
-                <span>{weatherInfo.icon}</span>
-                <span>{weatherInfo.temp}°C</span>
-              </span>
-            )}
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse ml-0.5" />
-            <span className="font-mono font-bold text-terracotta-700 text-xs tabular-nums">{timeState.timeString}</span>
-          </button>
-
-          <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
+      {/* Barra de accesos directos: Celular primero y expandido en Tablet / Notebook sin cortes */}
+      <div className="max-w-7xl mx-auto mb-4 sm:mb-6 px-2 sm:px-4">
+        <div className="flex flex-col lg:flex-row items-stretch lg:items-center justify-between gap-2.5">
+          {/* Bloque Izquierdo: Ubicación, Zona Horaria, Clima y Perfil */}
+          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-between sm:justify-start">
+            <button
+              onClick={onOpenTimezoneModal}
+              className="flex items-center gap-1.5 sm:gap-2 text-xs font-semibold text-stone-700 bg-white/85 hover:bg-white backdrop-blur-md px-3 sm:px-4 py-1.5 rounded-full border border-stone-200/80 shadow-2xs transition-all cursor-pointer group shrink-0"
+              title="Click para ajustar la ciudad, zona horaria y clima"
+            >
+              <span className="text-sm sm:text-base">{selectedCountry.flag}</span>
+              <span className="font-serif text-stone-900 font-bold">{selectedCountry.city || selectedCountry.name}</span>
+              {weatherInfo && (
+                <span className="flex items-center gap-1 text-[10px] sm:text-[11px] font-bold text-amber-900 bg-amber-100/90 px-1.5 sm:px-2 py-0.5 rounded-full border border-amber-300/60 shadow-2xs">
+                  <span>{weatherInfo.icon}</span>
+                  <span>{weatherInfo.temp}°C</span>
+                </span>
+              )}
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse ml-0.5" />
+              <span className="font-mono font-bold text-terracotta-700 text-xs tabular-nums">{timeState.timeString}</span>
+            </button>
             {/* Indicador y botón de Usuario / Login */}
             {onOpenAuth && (
               <button
@@ -287,7 +287,10 @@ export const ModernZenDashboard: React.FC<ModernZenDashboardProps> = ({
                 </button>
               )
             )}
+          </div>
 
+          {/* Bloque Derecho: Pasarelas, Apoyo y Canales Digitales (Fluido en Celular, Tablet y Notebook) */}
+          <div className="flex flex-wrap items-center gap-1.5 sm:gap-2 justify-start lg:justify-end">
             {/* Botón de Billetera (Pasarela de Pagos) */}
             {onOpenPayment && (
               <button
@@ -376,7 +379,7 @@ export const ModernZenDashboard: React.FC<ModernZenDashboardProps> = ({
       </div>
 
       {/* BANNER DESTACADO DE PORTADA OFICIAL - Tonos suaves de paz, calma y amor propio */}
-      <div className="max-w-6xl mx-auto mb-6 px-1 sm:px-2">
+      <div className="max-w-7xl mx-auto mb-6 px-1 sm:px-2">
         <div className="relative rounded-3xl overflow-hidden shadow-sm border border-amber-100/90 group bg-gradient-to-br from-[#FFFDF9] via-[#FAF5EE] to-[#FDF8F3]">
           <div className="aspect-[16/10] sm:aspect-[22/8] md:aspect-[32/9] w-full relative overflow-hidden flex items-center justify-center bg-gradient-to-r from-amber-50/70 via-rose-50/50 to-stone-50/70">
             {/* Fondo ambiental difuso, sereno y luminoso */}
@@ -453,7 +456,7 @@ export const ModernZenDashboard: React.FC<ModernZenDashboardProps> = ({
       </div>
 
       {/* Selector de Perspectiva Adaptativo (Celular 1° · Tablet · Notebook) */}
-      <div className="flex flex-wrap items-center justify-between max-w-6xl mx-auto mb-5 px-2 gap-2.5">
+      <div className="flex flex-wrap items-center justify-between max-w-7xl mx-auto mb-5 px-2 gap-2.5">
         <div className="flex items-center gap-1.5 bg-white/85 backdrop-blur-md p-1 rounded-full border border-stone-200/80 shadow-2xs w-full sm:w-auto justify-center sm:justify-start">
           <button
             onClick={() => setViewStyle('mockup')}
@@ -491,7 +494,7 @@ export const ModernZenDashboard: React.FC<ModernZenDashboardProps> = ({
       {/* COMPOSICIÓN PRINCIPAL: MOCKUP FLOTANTE O GRILLA EXPANDIDA */}
       {viewStyle === 'mockup' ? (
         /* VISTA FLOTANTE INSPIRADA EXACTAMENTE EN LA FOTOGRAFÍA */
-        <div className="w-full max-w-6xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-12 relative py-2 lg:py-8 box-border px-1 sm:px-4">
+        <div className="w-full max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-center gap-6 lg:gap-12 relative py-2 lg:py-8 box-border px-1 sm:px-4">
           
           {/* COLUMNA IZQUIERDA: WIDGETS FLOTANTES (Mini Calendario, Reproductor 432 Hz, Frase Afirmación) */}
           <div className="w-full lg:w-72 flex flex-col gap-5 order-2 lg:order-1">
@@ -1272,7 +1275,7 @@ export const ModernZenDashboard: React.FC<ModernZenDashboardProps> = ({
         </div>
       ) : (
         /* VISTA MOSAICO EXPANDIDA: PARA QUIENES DESEAN VER TODO EN FORMATO AMPLIO */
-        <div className="max-w-6xl mx-auto space-y-6">
+        <div className="max-w-7xl mx-auto space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
             {/* Tarjeta 1: Hero Principal */}
