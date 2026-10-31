@@ -1,0 +1,154 @@
+/* ==========================================================================
+   Almanaque de Amor Propio y Autoestima
+   Diseño Mobile-First (Celular 1° · Adaptativo a Tablet y Notebook)
+   Estética Zen Nórdica: Calma, Serenidad, Amor Puro y Armonía Visual
+   ========================================================================== */
+
+/* Reseteo Universal y Contención de Ancho para evitar todo desbordamiento */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #FAF8F5;
+    color: #2E2721;
+    -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
+}
+
+#root {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Imágenes y multimedia 100% contenidos */
+img, svg, video, canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tipografías base y auxiliares */
+.font-serif-calm {
+    font-family: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+}
+
+.font-script-subtle {
+    font-family: 'Alex Brush', cursive;
+}
+
+.font-cambria, .font-sergio {
+    font-family: Cambria, 'Hoefler Text', Georgia, 'Times New Roman', serif !important;
+    font-feature-settings: "lnum" 1, "tnum" 1;
+}
+
+/* Scrollbars sutiles, orgánicas y elegantes */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(194, 115, 92, 0.28);
+    border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(194, 115, 92, 0.5);
+}
+
+/* Ocultar barra de scroll en contenedores horizontales fluidos */
+.scrollbar-none::-webkit-scrollbar {
+    display: none;
+}
+.scrollbar-none {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* ==========================================================================
+   1° LUGAR: AJUSTES ESPECÍFICOS PARA CELULAR (Móviles hasta 480px / 640px)
+   ========================================================================== */
+@media (max-width: 640px) {
+    /* El contenedor principal respeta el ancho de pantalla sin márgenes negativos */
+    .container {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+        max-width: 100% !important;
+    }
+
+    /* Grillas de 7 días del calendario con proporción perfecta y texto legible */
+    .grid-cols-7 {
+        grid-template-columns: repeat(7, minmax(0, 1fr)) !important;
+        gap: 2px !important;
+    }
+
+    /* Tarjetas del calendario anual con espaciado óptimo */
+    .calendar-month-card {
+        padding: 0.75rem !important;
+        border-radius: 1.25rem !important;
+    }
+
+    /* Header superior ultra-limpio en móvil */
+    .app-header {
+        padding: 0.5rem 0.75rem !important;
+        border-radius: 9999px !important;
+        width: calc(100% - 1rem) !important;
+    }
+
+    /* Botones táctiles cómodos sin que los textos largos desborden */
+    button, a {
+        word-break: break-word;
+    }
+
+    /* Modal flotante dock tipo iOS */
+    .glass-dock {
+        padding: 0.35rem 0.75rem !important;
+        gap: 0.35rem !important;
+    }
+}
+
+/* ==========================================================================
+   2° LUGAR: ADAPTACIÓN PARA TABLETS (641px a 1024px)
+   ========================================================================== */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .container {
+        padding-left: 1.25rem !important;
+        padding-right: 1.25rem !important;
+    }
+
+    .grid-cols-7 {
+        gap: 4px !important;
+    }
+}
+
+/* ==========================================================================
+   3° LUGAR: ADAPTACIÓN PARA NOTEBOOKS Y PANTALLAS GRANDES (1025px+)
+   ========================================================================== */
+@media (min-width: 1025px) {
+    .container {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}

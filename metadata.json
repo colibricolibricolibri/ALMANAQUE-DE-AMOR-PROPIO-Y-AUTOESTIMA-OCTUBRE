@@ -1,0 +1,10 @@
+{
+  "name": "Remix  Almanaque de amor propio YOUTUBE",
+  "description": "Una aplicación de amor propio y autoestimas con afirmaciones diarias, reflexiones conscientes y música para la transformación interior.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

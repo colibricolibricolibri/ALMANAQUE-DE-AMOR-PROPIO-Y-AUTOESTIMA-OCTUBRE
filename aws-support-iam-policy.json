@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowAWSSupportCenterConsoleOperations",
+      "Effect": "Allow",
+      "Action": [
+        "support:Describe*",
+        "support:CreateCase",
+        "support:AddCommunicationToCase",
+        "support:ResolveCase",
+        "support:AddAttachmentsToSet",
+        "support:DescribeAttachment"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
