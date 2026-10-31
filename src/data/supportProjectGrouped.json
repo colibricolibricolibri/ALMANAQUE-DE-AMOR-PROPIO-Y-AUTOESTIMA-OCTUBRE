@@ -1,0 +1,1782 @@
+{
+  "months": [
+    {
+      "id": "mes-0-enero",
+      "number": 1,
+      "title": "Enero",
+      "subtitle": "Agrupa las frases: #1 CRISTO SIG, #10 PUNTO 0 FRAS, #11 AIRES D FRAS, #18 GOTAS DE ROCIO",
+      "unlockNotice": "Desbloquea el calendario del mes de Enero (solo mes de Enero)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/1SwpGvM",
+        "https://ibb.co/zWpx994L",
+        "https://ibb.co/Qg64XYZ",
+        "https://ibb.co/wZp985ww",
+        "https://ibb.co/fYfcqj3g",
+        "https://ibb.co/Zpzmnws5",
+        "https://ibb.co/JWJ8cRj2",
+        "https://ibb.co/pvkMP3jM"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/MX3jk2f/cristo-sign.jpg",
+          "originalUrl": "https://ibb.co/1SwpGvM",
+          "label": "#1 CRISTO SIG (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/PsKjXX6b/crsito-fras.jpg",
+          "originalUrl": "https://ibb.co/zWpx994L",
+          "label": "#1 CRISTO SIG (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/FrBFn89/PUNTO-0-FRAS.jpg",
+          "originalUrl": "https://ibb.co/Qg64XYZ",
+          "label": "#10 PUNTO 0 FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/20cDRGss/PUNTO-0-SIG.jpg",
+          "originalUrl": "https://ibb.co/wZp985ww",
+          "label": "#10 PUNTO 0 FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Fb2PmRQr/AIRES-D-FRAS.jpg",
+          "originalUrl": "https://ibb.co/fYfcqj3g",
+          "label": "#11 AIRES D FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/39mzD8X2/AIRES-D-SIG.jpg",
+          "originalUrl": "https://ibb.co/Zpzmnws5",
+          "label": "#11 AIRES D FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/wZm8dNhC/GOTASFRAS.jpg",
+          "originalUrl": "https://ibb.co/JWJ8cRj2",
+          "label": "#18 GOTAS DE ROCIO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/nsKY0DMY/Whats-App-Image-2026-10-27-at-11-53-25-2.jpg",
+          "originalUrl": "https://ibb.co/pvkMP3jM",
+          "label": "#18 GOTAS DE ROCIO (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 0,
+      "groupedPhrases": [
+        1,
+        10,
+        11,
+        18
+      ],
+      "groupedTitles": [
+        "#1 CRISTO SIG",
+        "#10 PUNTO 0 FRAS",
+        "#11 AIRES D FRAS",
+        "#18 GOTAS DE ROCIO"
+      ]
+    },
+    {
+      "id": "mes-1-febrero",
+      "number": 2,
+      "title": "Febrero",
+      "subtitle": "Agrupa las frases: #2 A SALVO FRAS, #36 POI, #37 LAVANDA",
+      "unlockNotice": "Desbloquea el calendario del mes de Febrero (solo mes de Febrero)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/1YXQXPK3",
+        "https://ibb.co/MDKq2Y7w",
+        "https://ibb.co/Y44KSQP0",
+        "https://ibb.co/3Yyr1fzS",
+        "https://ibb.co/RWvXpv6",
+        "https://ibb.co/bRrfy5xn"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/Cp989Yvq/A-SALVO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/1YXQXPK3",
+          "label": "#2 A SALVO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/ynKLfwqv/A-SALVO-SIG.jpg",
+          "originalUrl": "https://ibb.co/MDKq2Y7w",
+          "label": "#2 A SALVO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/poi_1.jpg",
+          "originalUrl": "https://ibb.co/Y44KSQP0",
+          "label": "#36 POI (Frases)"
+        },
+        {
+          "directUrl": "/images/support/poi_2.jpg",
+          "originalUrl": "https://ibb.co/3Yyr1fzS",
+          "label": "#36 POI (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_1.jpg",
+          "originalUrl": "https://ibb.co/RWvXpv6",
+          "label": "#37 LAVANDA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_2.jpg",
+          "originalUrl": "https://ibb.co/bRrfy5xn",
+          "label": "#37 LAVANDA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 1,
+      "groupedPhrases": [
+        2,
+        36,
+        37
+      ],
+      "groupedTitles": [
+        "#2 A SALVO FRAS",
+        "#36 POI",
+        "#37 LAVANDA"
+      ]
+    },
+    {
+      "id": "mes-2-marzo",
+      "number": 3,
+      "title": "Marzo",
+      "subtitle": "Agrupa las frases: #3 MANTO FRAS, #20 INFINITO, #38 LLAMA VIOLETA",
+      "unlockNotice": "Desbloquea el calendario del mes de Marzo (solo mes de Marzo)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/G3WT2ztH",
+        "https://ibb.co/pTXG80P",
+        "https://ibb.co/nsThJqsy",
+        "https://ibb.co/chdC3GTt",
+        "https://ibb.co/spqxQjqR",
+        "https://ibb.co/S7dfGxMj"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/Dg9pC08r/MANTO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/G3WT2ztH",
+          "label": "#3 MANTO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/BJsdxzP/MANTO-SIG.jpg",
+          "originalUrl": "https://ibb.co/pTXG80P",
+          "label": "#3 MANTO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/gMGsKbM8/INFINFRAS.jpg",
+          "originalUrl": "https://ibb.co/nsThJqsy",
+          "label": "#20 INFINITO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/k2F9BRc0/INFINSIG.jpg",
+          "originalUrl": "https://ibb.co/chdC3GTt",
+          "label": "#20 INFINITO (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/llama_violeta_1.jpg",
+          "originalUrl": "https://ibb.co/spqxQjqR",
+          "label": "#38 LLAMA VIOLETA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/llama_violeta_2.jpg",
+          "originalUrl": "https://ibb.co/S7dfGxMj",
+          "label": "#38 LLAMA VIOLETA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 2,
+      "groupedPhrases": [
+        3,
+        20,
+        38
+      ],
+      "groupedTitles": [
+        "#3 MANTO FRAS",
+        "#20 INFINITO",
+        "#38 LLAMA VIOLETA"
+      ]
+    },
+    {
+      "id": "mes-3-abril",
+      "number": 4,
+      "title": "Abril",
+      "subtitle": "Agrupa las frases: #4 ANILLO, #6 LLAV FRAS, #30 OJOS DE AMOR",
+      "unlockNotice": "Desbloquea el calendario del mes de Abril (solo mes de Abril)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/bMtTw53S",
+        "https://ibb.co/fVzK2Bw5",
+        "https://ibb.co/whnqW1Ns",
+        "https://ibb.co/B5NSVMVs",
+        "https://ibb.co/nsDkpyyH",
+        "https://ibb.co/MxgVTv6S"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/Q30LSvc2/ANILLOSIG.jpg",
+          "originalUrl": "https://ibb.co/bMtTw53S",
+          "label": "#4 ANILLO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Gf410BSL/ANILLSIG.jpg",
+          "originalUrl": "https://ibb.co/fVzK2Bw5",
+          "label": "#4 ANILLO (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/ZzQr8C6m/LLAV-FRAS.jpg",
+          "originalUrl": "https://ibb.co/whnqW1Ns",
+          "label": "#6 LLAV FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/C32T5G50/LLAV-SIG.jpg",
+          "originalUrl": "https://ibb.co/B5NSVMVs",
+          "label": "#6 LLAV FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/HDrgZyyW/OJOSFRAS.jpg",
+          "originalUrl": "https://ibb.co/nsDkpyyH",
+          "label": "#30 OJOS DE AMOR (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/C3w7dc28/OJOSIG.jpg",
+          "originalUrl": "https://ibb.co/MxgVTv6S",
+          "label": "#30 OJOS DE AMOR (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 3,
+      "groupedPhrases": [
+        4,
+        6,
+        30
+      ],
+      "groupedTitles": [
+        "#4 ANILLO",
+        "#6 LLAV FRAS",
+        "#30 OJOS DE AMOR"
+      ]
+    },
+    {
+      "id": "mes-4-mayo",
+      "number": 5,
+      "title": "Mayo",
+      "subtitle": "Agrupa las frases: #5 HOJAS DE FRAS, #14 CHOC FRA, #34 CAMPANITA",
+      "unlockNotice": "Desbloquea el calendario del mes de Mayo (solo mes de Mayo)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/N2rNmbxM",
+        "https://ibb.co/35K2WTzQ",
+        "https://ibb.co/FLLGVjCq",
+        "https://ibb.co/ccvFmqN3",
+        "https://ibb.co/C59Zb0vd",
+        "https://ibb.co/2YsXz3cx"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/3mvFMQ1n/HOJAS-DE-FRAS.jpg",
+          "originalUrl": "https://ibb.co/N2rNmbxM",
+          "label": "#5 HOJAS DE FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Fkp2JhVC/HOJAS-DE-SIG.jpg",
+          "originalUrl": "https://ibb.co/35K2WTzQ",
+          "label": "#5 HOJAS DE FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/1ttH6wjJ/CHOC-FRAS.jpg",
+          "originalUrl": "https://ibb.co/FLLGVjCq",
+          "label": "#14 CHOC FRA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/MDhVXdRS/CHOCO-SIG.jpg",
+          "originalUrl": "https://ibb.co/ccvFmqN3",
+          "label": "#14 CHOC FRA (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/campanita_1.jpg",
+          "originalUrl": "https://ibb.co/C59Zb0vd",
+          "label": "#34 CAMPANITA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/campanita_2.jpg",
+          "originalUrl": "https://ibb.co/2YsXz3cx",
+          "label": "#34 CAMPANITA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 4,
+      "groupedPhrases": [
+        5,
+        14,
+        34
+      ],
+      "groupedTitles": [
+        "#5 HOJAS DE FRAS",
+        "#14 CHOC FRA",
+        "#34 CAMPANITA"
+      ]
+    },
+    {
+      "id": "mes-5-junio",
+      "number": 6,
+      "title": "Junio",
+      "subtitle": "Agrupa las frases: #32 UH, #33 MADERA FRAS",
+      "unlockNotice": "Desbloquea el calendario del mes de Junio (solo mes de Junio)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/MD8h9fbm",
+        "https://ibb.co/nswRFnWs",
+        "https://ibb.co/FbZs51NM",
+        "https://ibb.co/GfXZNNzz"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/5WY92kdP/UHFRAS.jpg",
+          "originalUrl": "https://ibb.co/MD8h9fbm",
+          "label": "#32 UH (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/mCRS3XxC/UHSIG.jpg",
+          "originalUrl": "https://ibb.co/nswRFnWs",
+          "label": "#32 UH (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/27V8vrmQ/MADERA-FRAS.jpg",
+          "originalUrl": "https://ibb.co/FbZs51NM",
+          "label": "#33 MADERA FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/dsSNxx88/MADERA-SIG.jpg",
+          "originalUrl": "https://ibb.co/GfXZNNzz",
+          "label": "#33 MADERA FRAS (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 5,
+      "groupedPhrases": [
+        32,
+        33
+      ],
+      "groupedTitles": [
+        "#32 UH",
+        "#33 MADERA FRAS"
+      ]
+    },
+    {
+      "id": "mes-6-julio",
+      "number": 7,
+      "title": "Julio",
+      "subtitle": "Agrupa las frases: #7 PASADO FRAS, #36 POI, #37 LAVANDA",
+      "unlockNotice": "Desbloquea el calendario del mes de Julio (solo mes de Julio)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/4ndTJHxw",
+        "https://ibb.co/Nd0cVGLL",
+        "https://ibb.co/Y44KSQP0",
+        "https://ibb.co/3Yyr1fzS",
+        "https://ibb.co/RWvXpv6",
+        "https://ibb.co/bRrfy5xn"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/TxL8rs5D/PASADO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/4ndTJHxw",
+          "label": "#7 PASADO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/RkXRvJCC/PASADO-SIG.jpg",
+          "originalUrl": "https://ibb.co/Nd0cVGLL",
+          "label": "#7 PASADO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/poi_1.jpg",
+          "originalUrl": "https://ibb.co/Y44KSQP0",
+          "label": "#36 POI (Frases)"
+        },
+        {
+          "directUrl": "/images/support/poi_2.jpg",
+          "originalUrl": "https://ibb.co/3Yyr1fzS",
+          "label": "#36 POI (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_1.jpg",
+          "originalUrl": "https://ibb.co/RWvXpv6",
+          "label": "#37 LAVANDA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_2.jpg",
+          "originalUrl": "https://ibb.co/bRrfy5xn",
+          "label": "#37 LAVANDA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 6,
+      "groupedPhrases": [
+        7,
+        36,
+        37
+      ],
+      "groupedTitles": [
+        "#7 PASADO FRAS",
+        "#36 POI",
+        "#37 LAVANDA"
+      ]
+    },
+    {
+      "id": "mes-7-agosto",
+      "number": 8,
+      "title": "Agosto",
+      "subtitle": "Agrupa las frases: #8 AGVIDFRAS, #15 HELADO FRAS, #19 AZUL INDIGO",
+      "unlockNotice": "Desbloquea el calendario del mes de Agosto (solo mes de Agosto)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/XxdBTvNR",
+        "https://ibb.co/359jX8fH",
+        "https://ibb.co/zhmNs7VP",
+        "https://ibb.co/xtF7PjdH",
+        "https://ibb.co/wZygKWKb",
+        "https://ibb.co/Rk84qbtb"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/8gR3VSTZ/AGVID-FRAS.jpg",
+          "originalUrl": "https://ibb.co/XxdBTvNR",
+          "label": "#8 AGVIDFRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/KcpfZQNH/AGVID-SIG.jpg",
+          "originalUrl": "https://ibb.co/359jX8fH",
+          "label": "#8 AGVIDFRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/MDg9nGkP/HELADO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/zhmNs7VP",
+          "label": "#15 HELADO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/YF0LYkwZ/HELADO-SIG.jpg",
+          "originalUrl": "https://ibb.co/xtF7PjdH",
+          "label": "#15 HELADO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/mrJTHqHY/INDIFOFRAS.jpg",
+          "originalUrl": "https://ibb.co/wZygKWKb",
+          "label": "#19 AZUL INDIGO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/xtZ8NLwL/INDISIG.jpg",
+          "originalUrl": "https://ibb.co/Rk84qbtb",
+          "label": "#19 AZUL INDIGO (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 7,
+      "groupedPhrases": [
+        8,
+        15,
+        19
+      ],
+      "groupedTitles": [
+        "#8 AGVIDFRAS",
+        "#15 HELADO FRAS",
+        "#19 AZUL INDIGO"
+      ]
+    },
+    {
+      "id": "mes-8-septiembre",
+      "number": 9,
+      "title": "Septiembre",
+      "subtitle": "Agrupa las frases: #9 SUELT Y CONF FRAS, #28 VARILLA DE PLATA, #39 ARCO IRIS",
+      "unlockNotice": "Desbloquea el calendario del mes de Septiembre (solo mes de Septiembre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/35nm6fDm",
+        "https://ibb.co/zVfNWp59",
+        "https://ibb.co/dsPJfg0Q",
+        "https://ibb.co/JjBDbCHH",
+        "https://ibb.co/j9byHnrF",
+        "https://ibb.co/84rC2wkZ",
+        "https://ibb.co/hFGfyJZY"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/6ck09v30/sueltyconffras.jpg",
+          "originalUrl": "https://ibb.co/35nm6fDm",
+          "label": "#9 SUELT Y CONF FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/v4zDCpBy/sueltyconsig.jpg",
+          "originalUrl": "https://ibb.co/zVfNWp59",
+          "label": "#9 SUELT Y CONF FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/PsczrQZ5/VARIPLATFRAS.jpg",
+          "originalUrl": "https://ibb.co/dsPJfg0Q",
+          "label": "#28 VARILLA DE PLATA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/wh05bY44/VARIPLATSIG.jpg",
+          "originalUrl": "https://ibb.co/JjBDbCHH",
+          "label": "#28 VARILLA DE PLATA (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/arco_iris_1.jpg",
+          "originalUrl": "https://ibb.co/j9byHnrF",
+          "label": "#39 ARCO IRIS (Frases)"
+        },
+        {
+          "directUrl": "/images/support/arco_iris_2.jpg",
+          "originalUrl": "https://ibb.co/84rC2wkZ",
+          "label": "#39 ARCO IRIS (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/arco_iris_3.jpg",
+          "originalUrl": "https://ibb.co/hFGfyJZY",
+          "label": "#39 ARCO IRIS (Aclaración 2)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 8,
+      "groupedPhrases": [
+        9,
+        28,
+        39
+      ],
+      "groupedTitles": [
+        "#9 SUELT Y CONF FRAS",
+        "#28 VARILLA DE PLATA",
+        "#39 ARCO IRIS"
+      ]
+    },
+    {
+      "id": "mes-9-octubre",
+      "number": 10,
+      "title": "Octubre",
+      "subtitle": "Agrupa las frases: #16 ANESTESIA, #29 MANZANILLA",
+      "unlockNotice": "Desbloquea el calendario del mes de Octubre (solo mes de Octubre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/fYCYwMfX",
+        "https://ibb.co/7d9dYK71",
+        "https://ibb.co/0jC873VS",
+        "https://ibb.co/tMs2hYkQ"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/4ZjZrWzF/ANESFRAS.jpg",
+          "originalUrl": "https://ibb.co/fYCYwMfX",
+          "label": "#16 ANESTESIA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/MxXx27qC/ANESSIG.jpg",
+          "originalUrl": "https://ibb.co/7d9dYK71",
+          "label": "#16 ANESTESIA (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/PZc3L8zn/MANZANSIG.jpg",
+          "originalUrl": "https://ibb.co/0jC873VS",
+          "label": "#29 MANZANILLA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/WWyz3BqG/MANZFRAS.jpg",
+          "originalUrl": "https://ibb.co/tMs2hYkQ",
+          "label": "#29 MANZANILLA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 9,
+      "groupedPhrases": [
+        16,
+        29
+      ],
+      "groupedTitles": [
+        "#16 ANESTESIA",
+        "#29 MANZANILLA"
+      ]
+    },
+    {
+      "id": "mes-10-noviembre",
+      "number": 11,
+      "title": "Noviembre",
+      "subtitle": "Agrupa las frases: #13 HIELO FRS, #17 COLOR BLANCO",
+      "unlockNotice": "Desbloquea el calendario del mes de Noviembre (solo mes de Noviembre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/PGGr2HPr",
+        "https://ibb.co/jpJvt07",
+        "https://ibb.co/nqTw83fZ",
+        "https://ibb.co/3yKkpcCh",
+        "https://ibb.co/6cWPt1Xx"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/zVVm3vBm/HIELO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/PGGr2HPr",
+          "label": "#13 HIELO FRS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/2bZ7JVX/HIELO-SIG.jpg",
+          "originalUrl": "https://ibb.co/jpJvt07",
+          "label": "#13 HIELO FRS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/NgXFn1pQ/CLBFRAS.jpg",
+          "originalUrl": "https://ibb.co/nqTw83fZ",
+          "label": "#17 COLOR BLANCO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/JRZCvHsk/CLBLNSIG.jpg",
+          "originalUrl": "https://ibb.co/3yKkpcCh",
+          "label": "#17 COLOR BLANCO (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/20ktMsZQ/CLBSIG.jpg",
+          "originalUrl": "https://ibb.co/6cWPt1Xx",
+          "label": "#17 COLOR BLANCO (Aclaración 2)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 10,
+      "groupedPhrases": [
+        13,
+        17
+      ],
+      "groupedTitles": [
+        "#13 HIELO FRS",
+        "#17 COLOR BLANCO"
+      ]
+    },
+    {
+      "id": "mes-11-diciembre",
+      "number": 12,
+      "title": "Diciembre",
+      "subtitle": "Agrupa las frases: #22 COLIBRI, #24 lápiz con goma de borrar",
+      "unlockNotice": "Desbloquea el calendario del mes de Diciembre (solo mes de Diciembre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/zhNY0VvM",
+        "https://ibb.co/PsMNCqX7",
+        "https://ibb.co/KcPn2jvV",
+        "https://ibb.co/DgPrbw3k"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/pvn89jF7/COLIBRFRAS.jpg",
+          "originalUrl": "https://ibb.co/zhNY0VvM",
+          "label": "#22 COLIBRI (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/ympXsHvw/COLIBSIG.jpg",
+          "originalUrl": "https://ibb.co/PsMNCqX7",
+          "label": "#22 COLIBRI (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/6cMQHRCD/LAPIZFRAS.jpg",
+          "originalUrl": "https://ibb.co/KcPn2jvV",
+          "label": "#24 lápiz con goma de borrar (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Vp0wNMXD/LAPIZSIG.jpg",
+          "originalUrl": "https://ibb.co/DgPrbw3k",
+          "label": "#24 lápiz con goma de borrar (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 11,
+      "groupedPhrases": [
+        22,
+        24
+      ],
+      "groupedTitles": [
+        "#22 COLIBRI",
+        "#24 lápiz con goma de borrar"
+      ]
+    }
+  ],
+  "loose": [
+    {
+      "id": "frase-suelta-1-12",
+      "number": 1,
+      "originalNumber": 12,
+      "title": "OLAS D FRAS",
+      "subtitle": "Frase individual #12 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/1JvVs88S",
+        "https://ibb.co/jPWJM0gc"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/G3xwscch/OLAS-D-FRAS.jpg",
+          "originalUrl": "https://ibb.co/1JvVs88S"
+        },
+        {
+          "directUrl": "https://i.ibb.co/nNnPcdzH/OLAS-D-SIG.jpg",
+          "originalUrl": "https://ibb.co/jPWJM0gc"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-2-21",
+      "number": 2,
+      "originalNumber": 21,
+      "title": "COFRE DE DINERO",
+      "subtitle": "Frase individual #21 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/4RRm0SgW",
+        "https://ibb.co/ycTZ8zWm"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/600nqtJY/COFREFRAS.jpg",
+          "originalUrl": "https://ibb.co/4RRm0SgW"
+        },
+        {
+          "directUrl": "https://i.ibb.co/jPKQLCg9/COFRESIG.jpg",
+          "originalUrl": "https://ibb.co/ycTZ8zWm"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-3-23",
+      "number": 3,
+      "originalNumber": 23,
+      "title": "JUGO DE NARANJA",
+      "subtitle": "Frase individual #23 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/DPKbxLkr",
+        "https://ibb.co/v6fWHLGZ"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/fV0ShQtD/JUGFRAS.jpg",
+          "originalUrl": "https://ibb.co/DPKbxLkr"
+        },
+        {
+          "directUrl": "https://i.ibb.co/7dBDXr52/JUGOSIG.jpg",
+          "originalUrl": "https://ibb.co/v6fWHLGZ"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-4-25",
+      "number": 4,
+      "originalNumber": 25,
+      "title": "LLAVE DE ORO",
+      "subtitle": "Frase individual #25 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/Q39P9nfv",
+        "https://ibb.co/675Zx2xS"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/LXSxS68d/LLAVE-SIG.jpg",
+          "originalUrl": "https://ibb.co/Q39P9nfv"
+        },
+        {
+          "directUrl": "https://i.ibb.co/YFGWM6MS/LLAVEFRAS.jpg",
+          "originalUrl": "https://ibb.co/675Zx2xS"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-5-26",
+      "number": 5,
+      "originalNumber": 26,
+      "title": "TARRO DE MIEL",
+      "subtitle": "Frase individual #26 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/0RJ6KDcj",
+        "https://ibb.co/jZZ1x0dm"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/MxNtf2sD/TARROFRS.jpg",
+          "originalUrl": "https://ibb.co/0RJ6KDcj"
+        },
+        {
+          "directUrl": "https://i.ibb.co/7NN6TMHP/TARROSIG.jpg",
+          "originalUrl": "https://ibb.co/jZZ1x0dm"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-6-27",
+      "number": 6,
+      "originalNumber": 27,
+      "title": "LLOVIZNA",
+      "subtitle": "Frase individual #27 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/Y7QRpm6b",
+        "https://ibb.co/wZhCzcst"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/xSLCJWy3/LLOVFRAS.jpg",
+          "originalUrl": "https://ibb.co/Y7QRpm6b"
+        },
+        {
+          "directUrl": "https://i.ibb.co/7xtV1k4h/Whats-App-Image-2026-10-27-at-11-53-25.jpg",
+          "originalUrl": "https://ibb.co/wZhCzcst"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-7-31",
+      "number": 7,
+      "originalNumber": 31,
+      "title": "TAZON AZUL INDIGO",
+      "subtitle": "Frase individual #31 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/wFVPtSKS",
+        "https://ibb.co/QFFtmjGQ"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/ksjwZ4h4/TAZFRAS.jpg",
+          "originalUrl": "https://ibb.co/wFVPtSKS"
+        },
+        {
+          "directUrl": "https://i.ibb.co/qMMV1Fwj/TAZSIG.jpg",
+          "originalUrl": "https://ibb.co/QFFtmjGQ"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-8-35",
+      "number": 8,
+      "originalNumber": 35,
+      "title": "HAWAI",
+      "subtitle": "Frase individual #35 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/5hccNytY",
+        "https://ibb.co/99whxR3Z",
+        "https://ibb.co/7t3vnHcG"
+      ],
+      "images": [
+        {
+          "directUrl": "/images/support/hawai_1.jpg",
+          "originalUrl": "https://ibb.co/5hccNytY"
+        },
+        {
+          "directUrl": "/images/support/hawai_2.jpg",
+          "originalUrl": "https://ibb.co/99whxR3Z"
+        },
+        {
+          "directUrl": "/images/support/hawai_3.jpg",
+          "originalUrl": "https://ibb.co/7t3vnHcG"
+        }
+      ],
+      "isMonth": false
+    }
+  ],
+  "allItems": [
+    {
+      "id": "mes-0-enero",
+      "number": 1,
+      "title": "Enero",
+      "subtitle": "Agrupa las frases: #1 CRISTO SIG, #10 PUNTO 0 FRAS, #11 AIRES D FRAS, #18 GOTAS DE ROCIO",
+      "unlockNotice": "Desbloquea el calendario del mes de Enero (solo mes de Enero)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/1SwpGvM",
+        "https://ibb.co/zWpx994L",
+        "https://ibb.co/Qg64XYZ",
+        "https://ibb.co/wZp985ww",
+        "https://ibb.co/fYfcqj3g",
+        "https://ibb.co/Zpzmnws5",
+        "https://ibb.co/JWJ8cRj2",
+        "https://ibb.co/pvkMP3jM"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/MX3jk2f/cristo-sign.jpg",
+          "originalUrl": "https://ibb.co/1SwpGvM",
+          "label": "#1 CRISTO SIG (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/PsKjXX6b/crsito-fras.jpg",
+          "originalUrl": "https://ibb.co/zWpx994L",
+          "label": "#1 CRISTO SIG (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/FrBFn89/PUNTO-0-FRAS.jpg",
+          "originalUrl": "https://ibb.co/Qg64XYZ",
+          "label": "#10 PUNTO 0 FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/20cDRGss/PUNTO-0-SIG.jpg",
+          "originalUrl": "https://ibb.co/wZp985ww",
+          "label": "#10 PUNTO 0 FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Fb2PmRQr/AIRES-D-FRAS.jpg",
+          "originalUrl": "https://ibb.co/fYfcqj3g",
+          "label": "#11 AIRES D FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/39mzD8X2/AIRES-D-SIG.jpg",
+          "originalUrl": "https://ibb.co/Zpzmnws5",
+          "label": "#11 AIRES D FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/wZm8dNhC/GOTASFRAS.jpg",
+          "originalUrl": "https://ibb.co/JWJ8cRj2",
+          "label": "#18 GOTAS DE ROCIO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/nsKY0DMY/Whats-App-Image-2026-10-27-at-11-53-25-2.jpg",
+          "originalUrl": "https://ibb.co/pvkMP3jM",
+          "label": "#18 GOTAS DE ROCIO (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 0,
+      "groupedPhrases": [
+        1,
+        10,
+        11,
+        18
+      ],
+      "groupedTitles": [
+        "#1 CRISTO SIG",
+        "#10 PUNTO 0 FRAS",
+        "#11 AIRES D FRAS",
+        "#18 GOTAS DE ROCIO"
+      ]
+    },
+    {
+      "id": "mes-1-febrero",
+      "number": 2,
+      "title": "Febrero",
+      "subtitle": "Agrupa las frases: #2 A SALVO FRAS, #36 POI, #37 LAVANDA",
+      "unlockNotice": "Desbloquea el calendario del mes de Febrero (solo mes de Febrero)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/1YXQXPK3",
+        "https://ibb.co/MDKq2Y7w",
+        "https://ibb.co/Y44KSQP0",
+        "https://ibb.co/3Yyr1fzS",
+        "https://ibb.co/RWvXpv6",
+        "https://ibb.co/bRrfy5xn"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/Cp989Yvq/A-SALVO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/1YXQXPK3",
+          "label": "#2 A SALVO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/ynKLfwqv/A-SALVO-SIG.jpg",
+          "originalUrl": "https://ibb.co/MDKq2Y7w",
+          "label": "#2 A SALVO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/poi_1.jpg",
+          "originalUrl": "https://ibb.co/Y44KSQP0",
+          "label": "#36 POI (Frases)"
+        },
+        {
+          "directUrl": "/images/support/poi_2.jpg",
+          "originalUrl": "https://ibb.co/3Yyr1fzS",
+          "label": "#36 POI (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_1.jpg",
+          "originalUrl": "https://ibb.co/RWvXpv6",
+          "label": "#37 LAVANDA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_2.jpg",
+          "originalUrl": "https://ibb.co/bRrfy5xn",
+          "label": "#37 LAVANDA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 1,
+      "groupedPhrases": [
+        2,
+        36,
+        37
+      ],
+      "groupedTitles": [
+        "#2 A SALVO FRAS",
+        "#36 POI",
+        "#37 LAVANDA"
+      ]
+    },
+    {
+      "id": "mes-2-marzo",
+      "number": 3,
+      "title": "Marzo",
+      "subtitle": "Agrupa las frases: #3 MANTO FRAS, #20 INFINITO, #38 LLAMA VIOLETA",
+      "unlockNotice": "Desbloquea el calendario del mes de Marzo (solo mes de Marzo)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/G3WT2ztH",
+        "https://ibb.co/pTXG80P",
+        "https://ibb.co/nsThJqsy",
+        "https://ibb.co/chdC3GTt",
+        "https://ibb.co/spqxQjqR",
+        "https://ibb.co/S7dfGxMj"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/Dg9pC08r/MANTO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/G3WT2ztH",
+          "label": "#3 MANTO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/BJsdxzP/MANTO-SIG.jpg",
+          "originalUrl": "https://ibb.co/pTXG80P",
+          "label": "#3 MANTO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/gMGsKbM8/INFINFRAS.jpg",
+          "originalUrl": "https://ibb.co/nsThJqsy",
+          "label": "#20 INFINITO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/k2F9BRc0/INFINSIG.jpg",
+          "originalUrl": "https://ibb.co/chdC3GTt",
+          "label": "#20 INFINITO (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/llama_violeta_1.jpg",
+          "originalUrl": "https://ibb.co/spqxQjqR",
+          "label": "#38 LLAMA VIOLETA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/llama_violeta_2.jpg",
+          "originalUrl": "https://ibb.co/S7dfGxMj",
+          "label": "#38 LLAMA VIOLETA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 2,
+      "groupedPhrases": [
+        3,
+        20,
+        38
+      ],
+      "groupedTitles": [
+        "#3 MANTO FRAS",
+        "#20 INFINITO",
+        "#38 LLAMA VIOLETA"
+      ]
+    },
+    {
+      "id": "mes-3-abril",
+      "number": 4,
+      "title": "Abril",
+      "subtitle": "Agrupa las frases: #4 ANILLO, #6 LLAV FRAS, #30 OJOS DE AMOR",
+      "unlockNotice": "Desbloquea el calendario del mes de Abril (solo mes de Abril)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/bMtTw53S",
+        "https://ibb.co/fVzK2Bw5",
+        "https://ibb.co/whnqW1Ns",
+        "https://ibb.co/B5NSVMVs",
+        "https://ibb.co/nsDkpyyH",
+        "https://ibb.co/MxgVTv6S"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/Q30LSvc2/ANILLOSIG.jpg",
+          "originalUrl": "https://ibb.co/bMtTw53S",
+          "label": "#4 ANILLO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Gf410BSL/ANILLSIG.jpg",
+          "originalUrl": "https://ibb.co/fVzK2Bw5",
+          "label": "#4 ANILLO (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/ZzQr8C6m/LLAV-FRAS.jpg",
+          "originalUrl": "https://ibb.co/whnqW1Ns",
+          "label": "#6 LLAV FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/C32T5G50/LLAV-SIG.jpg",
+          "originalUrl": "https://ibb.co/B5NSVMVs",
+          "label": "#6 LLAV FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/HDrgZyyW/OJOSFRAS.jpg",
+          "originalUrl": "https://ibb.co/nsDkpyyH",
+          "label": "#30 OJOS DE AMOR (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/C3w7dc28/OJOSIG.jpg",
+          "originalUrl": "https://ibb.co/MxgVTv6S",
+          "label": "#30 OJOS DE AMOR (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 3,
+      "groupedPhrases": [
+        4,
+        6,
+        30
+      ],
+      "groupedTitles": [
+        "#4 ANILLO",
+        "#6 LLAV FRAS",
+        "#30 OJOS DE AMOR"
+      ]
+    },
+    {
+      "id": "mes-4-mayo",
+      "number": 5,
+      "title": "Mayo",
+      "subtitle": "Agrupa las frases: #5 HOJAS DE FRAS, #14 CHOC FRA, #34 CAMPANITA",
+      "unlockNotice": "Desbloquea el calendario del mes de Mayo (solo mes de Mayo)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/N2rNmbxM",
+        "https://ibb.co/35K2WTzQ",
+        "https://ibb.co/FLLGVjCq",
+        "https://ibb.co/ccvFmqN3",
+        "https://ibb.co/C59Zb0vd",
+        "https://ibb.co/2YsXz3cx"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/3mvFMQ1n/HOJAS-DE-FRAS.jpg",
+          "originalUrl": "https://ibb.co/N2rNmbxM",
+          "label": "#5 HOJAS DE FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Fkp2JhVC/HOJAS-DE-SIG.jpg",
+          "originalUrl": "https://ibb.co/35K2WTzQ",
+          "label": "#5 HOJAS DE FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/1ttH6wjJ/CHOC-FRAS.jpg",
+          "originalUrl": "https://ibb.co/FLLGVjCq",
+          "label": "#14 CHOC FRA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/MDhVXdRS/CHOCO-SIG.jpg",
+          "originalUrl": "https://ibb.co/ccvFmqN3",
+          "label": "#14 CHOC FRA (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/campanita_1.jpg",
+          "originalUrl": "https://ibb.co/C59Zb0vd",
+          "label": "#34 CAMPANITA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/campanita_2.jpg",
+          "originalUrl": "https://ibb.co/2YsXz3cx",
+          "label": "#34 CAMPANITA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 4,
+      "groupedPhrases": [
+        5,
+        14,
+        34
+      ],
+      "groupedTitles": [
+        "#5 HOJAS DE FRAS",
+        "#14 CHOC FRA",
+        "#34 CAMPANITA"
+      ]
+    },
+    {
+      "id": "mes-5-junio",
+      "number": 6,
+      "title": "Junio",
+      "subtitle": "Agrupa las frases: #32 UH, #33 MADERA FRAS",
+      "unlockNotice": "Desbloquea el calendario del mes de Junio (solo mes de Junio)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/MD8h9fbm",
+        "https://ibb.co/nswRFnWs",
+        "https://ibb.co/FbZs51NM",
+        "https://ibb.co/GfXZNNzz"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/5WY92kdP/UHFRAS.jpg",
+          "originalUrl": "https://ibb.co/MD8h9fbm",
+          "label": "#32 UH (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/mCRS3XxC/UHSIG.jpg",
+          "originalUrl": "https://ibb.co/nswRFnWs",
+          "label": "#32 UH (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/27V8vrmQ/MADERA-FRAS.jpg",
+          "originalUrl": "https://ibb.co/FbZs51NM",
+          "label": "#33 MADERA FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/dsSNxx88/MADERA-SIG.jpg",
+          "originalUrl": "https://ibb.co/GfXZNNzz",
+          "label": "#33 MADERA FRAS (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 5,
+      "groupedPhrases": [
+        32,
+        33
+      ],
+      "groupedTitles": [
+        "#32 UH",
+        "#33 MADERA FRAS"
+      ]
+    },
+    {
+      "id": "mes-6-julio",
+      "number": 7,
+      "title": "Julio",
+      "subtitle": "Agrupa las frases: #7 PASADO FRAS, #36 POI, #37 LAVANDA",
+      "unlockNotice": "Desbloquea el calendario del mes de Julio (solo mes de Julio)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/4ndTJHxw",
+        "https://ibb.co/Nd0cVGLL",
+        "https://ibb.co/Y44KSQP0",
+        "https://ibb.co/3Yyr1fzS",
+        "https://ibb.co/RWvXpv6",
+        "https://ibb.co/bRrfy5xn"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/TxL8rs5D/PASADO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/4ndTJHxw",
+          "label": "#7 PASADO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/RkXRvJCC/PASADO-SIG.jpg",
+          "originalUrl": "https://ibb.co/Nd0cVGLL",
+          "label": "#7 PASADO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/poi_1.jpg",
+          "originalUrl": "https://ibb.co/Y44KSQP0",
+          "label": "#36 POI (Frases)"
+        },
+        {
+          "directUrl": "/images/support/poi_2.jpg",
+          "originalUrl": "https://ibb.co/3Yyr1fzS",
+          "label": "#36 POI (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_1.jpg",
+          "originalUrl": "https://ibb.co/RWvXpv6",
+          "label": "#37 LAVANDA (Frases)"
+        },
+        {
+          "directUrl": "/images/support/lavanda_2.jpg",
+          "originalUrl": "https://ibb.co/bRrfy5xn",
+          "label": "#37 LAVANDA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 6,
+      "groupedPhrases": [
+        7,
+        36,
+        37
+      ],
+      "groupedTitles": [
+        "#7 PASADO FRAS",
+        "#36 POI",
+        "#37 LAVANDA"
+      ]
+    },
+    {
+      "id": "mes-7-agosto",
+      "number": 8,
+      "title": "Agosto",
+      "subtitle": "Agrupa las frases: #8 AGVIDFRAS, #15 HELADO FRAS, #19 AZUL INDIGO",
+      "unlockNotice": "Desbloquea el calendario del mes de Agosto (solo mes de Agosto)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/XxdBTvNR",
+        "https://ibb.co/359jX8fH",
+        "https://ibb.co/zhmNs7VP",
+        "https://ibb.co/xtF7PjdH",
+        "https://ibb.co/wZygKWKb",
+        "https://ibb.co/Rk84qbtb"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/8gR3VSTZ/AGVID-FRAS.jpg",
+          "originalUrl": "https://ibb.co/XxdBTvNR",
+          "label": "#8 AGVIDFRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/KcpfZQNH/AGVID-SIG.jpg",
+          "originalUrl": "https://ibb.co/359jX8fH",
+          "label": "#8 AGVIDFRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/MDg9nGkP/HELADO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/zhmNs7VP",
+          "label": "#15 HELADO FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/YF0LYkwZ/HELADO-SIG.jpg",
+          "originalUrl": "https://ibb.co/xtF7PjdH",
+          "label": "#15 HELADO FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/mrJTHqHY/INDIFOFRAS.jpg",
+          "originalUrl": "https://ibb.co/wZygKWKb",
+          "label": "#19 AZUL INDIGO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/xtZ8NLwL/INDISIG.jpg",
+          "originalUrl": "https://ibb.co/Rk84qbtb",
+          "label": "#19 AZUL INDIGO (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 7,
+      "groupedPhrases": [
+        8,
+        15,
+        19
+      ],
+      "groupedTitles": [
+        "#8 AGVIDFRAS",
+        "#15 HELADO FRAS",
+        "#19 AZUL INDIGO"
+      ]
+    },
+    {
+      "id": "mes-8-septiembre",
+      "number": 9,
+      "title": "Septiembre",
+      "subtitle": "Agrupa las frases: #9 SUELT Y CONF FRAS, #28 VARILLA DE PLATA, #39 ARCO IRIS",
+      "unlockNotice": "Desbloquea el calendario del mes de Septiembre (solo mes de Septiembre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/35nm6fDm",
+        "https://ibb.co/zVfNWp59",
+        "https://ibb.co/dsPJfg0Q",
+        "https://ibb.co/JjBDbCHH",
+        "https://ibb.co/j9byHnrF",
+        "https://ibb.co/84rC2wkZ",
+        "https://ibb.co/hFGfyJZY"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/6ck09v30/sueltyconffras.jpg",
+          "originalUrl": "https://ibb.co/35nm6fDm",
+          "label": "#9 SUELT Y CONF FRAS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/v4zDCpBy/sueltyconsig.jpg",
+          "originalUrl": "https://ibb.co/zVfNWp59",
+          "label": "#9 SUELT Y CONF FRAS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/PsczrQZ5/VARIPLATFRAS.jpg",
+          "originalUrl": "https://ibb.co/dsPJfg0Q",
+          "label": "#28 VARILLA DE PLATA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/wh05bY44/VARIPLATSIG.jpg",
+          "originalUrl": "https://ibb.co/JjBDbCHH",
+          "label": "#28 VARILLA DE PLATA (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/arco_iris_1.jpg",
+          "originalUrl": "https://ibb.co/j9byHnrF",
+          "label": "#39 ARCO IRIS (Frases)"
+        },
+        {
+          "directUrl": "/images/support/arco_iris_2.jpg",
+          "originalUrl": "https://ibb.co/84rC2wkZ",
+          "label": "#39 ARCO IRIS (Aclaración)"
+        },
+        {
+          "directUrl": "/images/support/arco_iris_3.jpg",
+          "originalUrl": "https://ibb.co/hFGfyJZY",
+          "label": "#39 ARCO IRIS (Aclaración 2)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 8,
+      "groupedPhrases": [
+        9,
+        28,
+        39
+      ],
+      "groupedTitles": [
+        "#9 SUELT Y CONF FRAS",
+        "#28 VARILLA DE PLATA",
+        "#39 ARCO IRIS"
+      ]
+    },
+    {
+      "id": "mes-9-octubre",
+      "number": 10,
+      "title": "Octubre",
+      "subtitle": "Agrupa las frases: #16 ANESTESIA, #29 MANZANILLA",
+      "unlockNotice": "Desbloquea el calendario del mes de Octubre (solo mes de Octubre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/fYCYwMfX",
+        "https://ibb.co/7d9dYK71",
+        "https://ibb.co/0jC873VS",
+        "https://ibb.co/tMs2hYkQ"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/4ZjZrWzF/ANESFRAS.jpg",
+          "originalUrl": "https://ibb.co/fYCYwMfX",
+          "label": "#16 ANESTESIA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/MxXx27qC/ANESSIG.jpg",
+          "originalUrl": "https://ibb.co/7d9dYK71",
+          "label": "#16 ANESTESIA (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/PZc3L8zn/MANZANSIG.jpg",
+          "originalUrl": "https://ibb.co/0jC873VS",
+          "label": "#29 MANZANILLA (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/WWyz3BqG/MANZFRAS.jpg",
+          "originalUrl": "https://ibb.co/tMs2hYkQ",
+          "label": "#29 MANZANILLA (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 9,
+      "groupedPhrases": [
+        16,
+        29
+      ],
+      "groupedTitles": [
+        "#16 ANESTESIA",
+        "#29 MANZANILLA"
+      ]
+    },
+    {
+      "id": "mes-10-noviembre",
+      "number": 11,
+      "title": "Noviembre",
+      "subtitle": "Agrupa las frases: #13 HIELO FRS, #17 COLOR BLANCO",
+      "unlockNotice": "Desbloquea el calendario del mes de Noviembre (solo mes de Noviembre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/PGGr2HPr",
+        "https://ibb.co/jpJvt07",
+        "https://ibb.co/nqTw83fZ",
+        "https://ibb.co/3yKkpcCh",
+        "https://ibb.co/6cWPt1Xx"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/zVVm3vBm/HIELO-FRAS.jpg",
+          "originalUrl": "https://ibb.co/PGGr2HPr",
+          "label": "#13 HIELO FRS (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/2bZ7JVX/HIELO-SIG.jpg",
+          "originalUrl": "https://ibb.co/jpJvt07",
+          "label": "#13 HIELO FRS (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/NgXFn1pQ/CLBFRAS.jpg",
+          "originalUrl": "https://ibb.co/nqTw83fZ",
+          "label": "#17 COLOR BLANCO (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/JRZCvHsk/CLBLNSIG.jpg",
+          "originalUrl": "https://ibb.co/3yKkpcCh",
+          "label": "#17 COLOR BLANCO (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/20ktMsZQ/CLBSIG.jpg",
+          "originalUrl": "https://ibb.co/6cWPt1Xx",
+          "label": "#17 COLOR BLANCO (Aclaración 2)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 10,
+      "groupedPhrases": [
+        13,
+        17
+      ],
+      "groupedTitles": [
+        "#13 HIELO FRS",
+        "#17 COLOR BLANCO"
+      ]
+    },
+    {
+      "id": "mes-11-diciembre",
+      "number": 12,
+      "title": "Diciembre",
+      "subtitle": "Agrupa las frases: #22 COLIBRI, #24 lápiz con goma de borrar",
+      "unlockNotice": "Desbloquea el calendario del mes de Diciembre (solo mes de Diciembre)",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/zhNY0VvM",
+        "https://ibb.co/PsMNCqX7",
+        "https://ibb.co/KcPn2jvV",
+        "https://ibb.co/DgPrbw3k"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/pvn89jF7/COLIBRFRAS.jpg",
+          "originalUrl": "https://ibb.co/zhNY0VvM",
+          "label": "#22 COLIBRI (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/ympXsHvw/COLIBSIG.jpg",
+          "originalUrl": "https://ibb.co/PsMNCqX7",
+          "label": "#22 COLIBRI (Aclaración)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/6cMQHRCD/LAPIZFRAS.jpg",
+          "originalUrl": "https://ibb.co/KcPn2jvV",
+          "label": "#24 lápiz con goma de borrar (Frases)"
+        },
+        {
+          "directUrl": "https://i.ibb.co/Vp0wNMXD/LAPIZSIG.jpg",
+          "originalUrl": "https://ibb.co/DgPrbw3k",
+          "label": "#24 lápiz con goma de borrar (Aclaración)"
+        }
+      ],
+      "isMonth": true,
+      "monthIndex": 11,
+      "groupedPhrases": [
+        22,
+        24
+      ],
+      "groupedTitles": [
+        "#22 COLIBRI",
+        "#24 lápiz con goma de borrar"
+      ]
+    },
+    {
+      "id": "frase-suelta-1-12",
+      "number": 1,
+      "originalNumber": 12,
+      "title": "OLAS D FRAS",
+      "subtitle": "Frase individual #12 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/1JvVs88S",
+        "https://ibb.co/jPWJM0gc"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/G3xwscch/OLAS-D-FRAS.jpg",
+          "originalUrl": "https://ibb.co/1JvVs88S"
+        },
+        {
+          "directUrl": "https://i.ibb.co/nNnPcdzH/OLAS-D-SIG.jpg",
+          "originalUrl": "https://ibb.co/jPWJM0gc"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-2-21",
+      "number": 2,
+      "originalNumber": 21,
+      "title": "COFRE DE DINERO",
+      "subtitle": "Frase individual #21 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/4RRm0SgW",
+        "https://ibb.co/ycTZ8zWm"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/600nqtJY/COFREFRAS.jpg",
+          "originalUrl": "https://ibb.co/4RRm0SgW"
+        },
+        {
+          "directUrl": "https://i.ibb.co/jPKQLCg9/COFRESIG.jpg",
+          "originalUrl": "https://ibb.co/ycTZ8zWm"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-3-23",
+      "number": 3,
+      "originalNumber": 23,
+      "title": "JUGO DE NARANJA",
+      "subtitle": "Frase individual #23 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/DPKbxLkr",
+        "https://ibb.co/v6fWHLGZ"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/fV0ShQtD/JUGFRAS.jpg",
+          "originalUrl": "https://ibb.co/DPKbxLkr"
+        },
+        {
+          "directUrl": "https://i.ibb.co/7dBDXr52/JUGOSIG.jpg",
+          "originalUrl": "https://ibb.co/v6fWHLGZ"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-4-25",
+      "number": 4,
+      "originalNumber": 25,
+      "title": "LLAVE DE ORO",
+      "subtitle": "Frase individual #25 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/Q39P9nfv",
+        "https://ibb.co/675Zx2xS"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/LXSxS68d/LLAVE-SIG.jpg",
+          "originalUrl": "https://ibb.co/Q39P9nfv"
+        },
+        {
+          "directUrl": "https://i.ibb.co/YFGWM6MS/LLAVEFRAS.jpg",
+          "originalUrl": "https://ibb.co/675Zx2xS"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-5-26",
+      "number": 5,
+      "originalNumber": 26,
+      "title": "TARRO DE MIEL",
+      "subtitle": "Frase individual #26 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/0RJ6KDcj",
+        "https://ibb.co/jZZ1x0dm"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/MxNtf2sD/TARROFRS.jpg",
+          "originalUrl": "https://ibb.co/0RJ6KDcj"
+        },
+        {
+          "directUrl": "https://i.ibb.co/7NN6TMHP/TARROSIG.jpg",
+          "originalUrl": "https://ibb.co/jZZ1x0dm"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-6-27",
+      "number": 6,
+      "originalNumber": 27,
+      "title": "LLOVIZNA",
+      "subtitle": "Frase individual #27 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/Y7QRpm6b",
+        "https://ibb.co/wZhCzcst"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/xSLCJWy3/LLOVFRAS.jpg",
+          "originalUrl": "https://ibb.co/Y7QRpm6b"
+        },
+        {
+          "directUrl": "https://i.ibb.co/7xtV1k4h/Whats-App-Image-2026-10-27-at-11-53-25.jpg",
+          "originalUrl": "https://ibb.co/wZhCzcst"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-7-31",
+      "number": 7,
+      "originalNumber": 31,
+      "title": "TAZON AZUL INDIGO",
+      "subtitle": "Frase individual #31 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/wFVPtSKS",
+        "https://ibb.co/QFFtmjGQ"
+      ],
+      "images": [
+        {
+          "directUrl": "https://i.ibb.co/ksjwZ4h4/TAZFRAS.jpg",
+          "originalUrl": "https://ibb.co/wFVPtSKS"
+        },
+        {
+          "directUrl": "https://i.ibb.co/qMMV1Fwj/TAZSIG.jpg",
+          "originalUrl": "https://ibb.co/QFFtmjGQ"
+        }
+      ],
+      "isMonth": false
+    },
+    {
+      "id": "frase-suelta-8-35",
+      "number": 8,
+      "originalNumber": 35,
+      "title": "HAWAI",
+      "subtitle": "Frase individual #35 · Mantras y anclas visuales",
+      "unlockNotice": "Acceso y descarga individual de mantras y anclas visuales",
+      "price": 1.25,
+      "links": [
+        "https://ibb.co/5hccNytY",
+        "https://ibb.co/99whxR3Z",
+        "https://ibb.co/7t3vnHcG"
+      ],
+      "images": [
+        {
+          "directUrl": "/images/support/hawai_1.jpg",
+          "originalUrl": "https://ibb.co/5hccNytY"
+        },
+        {
+          "directUrl": "/images/support/hawai_2.jpg",
+          "originalUrl": "https://ibb.co/99whxR3Z"
+        },
+        {
+          "directUrl": "/images/support/hawai_3.jpg",
+          "originalUrl": "https://ibb.co/7t3vnHcG"
+        }
+      ],
+      "isMonth": false
+    }
+  ]
+}
