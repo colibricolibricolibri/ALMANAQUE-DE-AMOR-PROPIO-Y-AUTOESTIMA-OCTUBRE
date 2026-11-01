@@ -1,0 +1,73 @@
+# ==============================================================================
+# ALMANAQUE DE AMOR PROPIO Y AUTOESTIMA - CONFIGURACIÓN HOSTINGER (LITESPEED / APACHE)
+# ==============================================================================
+
+# 1. HABILITAR MOTOR DE REESCRITURA (SPA - SINGLE PAGE APPLICATION)
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirección forzada a HTTPS segura
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Si el archivo o directorio existe físicamente, servirlo directamente
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # En cualquier otro caso, redirigir a index.html para que React gestione la ruta
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# 2. SEGURIDAD Y PROTECCIÓN
+# Deshabilitar listado de directorios
+Options -Indexes
+
+# Proteger archivos sensibles ocultos
+<FilesMatch "^\.">
+  Order allow,deny
+  Deny from all
+</FilesMatch>
+
+# Encabezados de Seguridad
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 3. TIPOS MIME ADECUADOS (Para móviles, fuentes y scripts)
+<IfModule mod_mime.c>
+  AddType application/javascript .js .mjs
+  AddType text/css .css
+  AddType image/svg+xml .svg
+  AddType font/ttf .ttf
+  AddType font/woff .woff
+  AddType font/woff2 .woff2
+  AddType application/json .json
+  AddType image/webp .webp
+</IfModule>
+
+# 4. COMPRESIÓN GZIP (Carga ultra rápida en móviles y notebooks)
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+# 5. CACHÉ DE NAVEGADOR
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresDefault "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+  ExpiresByType application/json "access plus 0 seconds"
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>

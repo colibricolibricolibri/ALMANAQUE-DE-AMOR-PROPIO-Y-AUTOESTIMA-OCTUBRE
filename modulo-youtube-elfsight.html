@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Módulo de YouTube Gallery | Almanaque de Amor Propio ($1.75 USD)</title>
+  <meta name="description" content="Módulo audiovisual de YouTube Gallery para el Almanaque de Amor Propio. Diseño 100% responsivo para celular, tablet y notebook con lógica de reproducción continua 2027 y sistema de pago seguro.">
+
+  <!-- Tipografía Espiritual y Zen -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Plataforma Oficial de Widgets de Elfsight -->
+  <!-- Elfsight YouTube Gallery | Untitled YouTube Gallery -->
+  <script src="https://elfsightcdn.com/platform.js" async></script>
+
+  <style>
+    /* ==========================================================================
+       RESET Y VARIABLES DE DISEÑO (ESTÉTICA ESPIRITUAL Y ZEN)
+       ========================================================================== */
+    :root {
+      --bg-dark: #0c0a09;
+      --bg-card: rgba(28, 25, 23, 0.95);
+      --bg-card-border: rgba(68, 64, 60, 0.6);
+      --accent-red: #dc2626;
+      --accent-red-hover: #ef4444;
+      --accent-gold: #f59e0b;
+      --accent-emerald: #10b981;
+      --text-main: #f5f5f4;
+      --text-muted: #a8a29e;
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 80% 20%, rgba(220, 38, 38, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.06) 0%, transparent 40%);
+      color: var(--text-main);
+      font-family: var(--font-sans);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 16px 48px;
+    }
+
+    /* ==========================================================================
+       CONTENEDOR 100% RESPONSIVO (CELULAR, TABLET, NOTEBOOK)
+       ========================================================================== */
+    .yt-module-wrapper {
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ==========================================================================
+       CABECERA ESPIRITUAL Y PANEL DE CONTROL
+       ========================================================================== */
+    .yt-hero-card {
+      background: linear-gradient(145deg, #1c1917, #0f0d0c);
+      border: 1px solid var(--bg-card-border);
+      border-radius: 24px;
+      padding: 32px 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (min-width: 768px) {
+      .yt-hero-card {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px;
+      }
+    }
+
+    .yt-hero-info {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      max-width: 650px;
+    }
+
+    .yt-badge {
+      align-self: flex-start;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(153, 27, 27, 0.4);
+      border: 1px solid rgba(239, 68, 68, 0.4);
+      color: #fca5a5;
+      font-size: 11px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .yt-badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: #ef4444;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+
+    .yt-title {
+      font-family: var(--font-serif);
+      font-size: 28px;
+      font-weight: 700;
+      line-height: 1.2;
+      color: #fafaf9;
+    }
+
+    @media (min-width: 640px) {
+      .yt-title { font-size: 36px; }
+    }
+
+    @media (min-width: 1024px) {
+      .yt-title { font-size: 42px; }
+    }
+
+    .yt-description {
+      font-size: 14px;
+      line-height: 1.6;
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+
+    @media (min-width: 640px) {
+      .yt-description { font-size: 15px; }
+    }
+
+    .yt-features-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .yt-feature-tag {
+      font-size: 11px;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(41, 37, 36, 0.8);
+      border: 1px solid rgba(87, 83, 78, 0.5);
+      color: #d6d3d1;
+    }
+
+    /* Caja de Pago Lateral */
+    .yt-pricing-box {
+      background: rgba(12, 10, 9, 0.7);
+      border: 1px solid rgba(87, 83, 78, 0.6);
+      border-radius: 20px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 16px;
+      min-width: 250px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .yt-price-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+    }
+
+    .yt-price-amount {
+      display: flex;
+      align-items: baseline;
+      gap: 4px;
+    }
+
+    .yt-price-val {
+      font-family: var(--font-serif);
+      font-size: 38px;
+      font-weight: 700;
+      color: #fafaf9;
+    }
+
+    .yt-price-curr {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    /* Botones de acción */
+    .yt-btn {
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: none;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .yt-btn-primary {
+      background: linear-gradient(135deg, #dc2626, #b91c1c);
+      color: #ffffff;
+      box-shadow: 0 4px 15px rgba(220, 38, 38, 0.4);
+    }
+
+    .yt-btn-primary:hover {
+      background: linear-gradient(135deg, #ef4444, #dc2626);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(220, 38, 38, 0.6);
+    }
+
+    .yt-btn-secondary {
+      background: #292524;
+      border: 1px solid #44403c;
+      color: #e7e5e4;
+    }
+
+    .yt-btn-secondary:hover {
+      background: #3a3532;
+      border-color: #57534e;
+    }
+
+    .yt-btn-success {
+      background: rgba(6, 78, 59, 0.8);
+      border: 1px solid rgba(16, 185, 129, 0.5);
+      color: #6ee7b7;
+    }
+
+    .yt-btn-success:hover {
+      background: rgba(6, 78, 59, 1);
+      color: #a7f3d0;
+    }
+
+    /* ==========================================================================
+       PANEL INFORMATIVO DE LÓGICA TEMPORAL (ENERO 2027)
+       ========================================================================== */
+    .yt-status-banner {
+      background: rgba(28, 25, 23, 0.7);
+      border: 1px solid var(--bg-card-border);
+      border-radius: 16px;
+      padding: 16px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    @media (min-width: 640px) {
+      .yt-status-banner {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+    .yt-status-text {
+      font-size: 13px;
+      line-height: 1.5;
+      color: #d6d3d1;
+    }
+
+    .yt-status-highlight {
+      color: #fde047;
+      font-weight: 600;
+    }
+
+    .yt-simulate-btn {
+      padding: 8px 16px;
+      border-radius: 10px;
+      background: #292524;
+      border: 1px solid #57534e;
+      color: #e7e5e4;
+      font-size: 11px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+
+    .yt-simulate-btn:hover {
+      background: #3a3532;
+      border-color: #78716c;
+    }
+
+    /* ==========================================================================
+       MARCO DEL REPRODUCTOR ELFSIGHT Y CAPA INVISIBLE RESPONSIVA
+       ========================================================================== */
+    .yt-player-outer {
+      background: #000000;
+      border: 1px solid #292524;
+      border-radius: 24px;
+      padding: 12px;
+      box-shadow: 0 25px 50px rgba(0, 0, 0, 0.8);
+      position: relative;
+      overflow: hidden;
+    }
+
+    @media (min-width: 640px) {
+      .yt-player-outer { padding: 20px; }
+    }
+
+    @media (min-width: 1024px) {
+      .yt-player-outer { padding: 28px; }
+    }
+
+    .yt-player-inner {
+      width: 100%;
+      min-height: 480px;
+      position: relative;
+      border-radius: 16px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /*
+      CAPA INVISIBLE RESPONSIVA (JavaScript Native Guard 2027)
+      Esta capa se activa a partir del 01/01/2027 posicionada directamente sobre
+      la barra de control de reproducción para bloquear o deshabilitar Stop o Pausa,
+      manteniendo la reproducción continua en celulares, tablets y notebooks,
+      sin obstruir jamás los botones de compra ni de descarga.
+    */
+    .yt-invisible-pause-guard {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      z-index: 20;
+      background: transparent;
+      cursor: not-allowed;
+      user-select: none;
+      touch-action: none;
+      display: none; /* Se activa mediante JavaScript si la fecha >= 01/01/2027 */
+    }
+
+    .yt-invisible-pause-guard.active {
+      display: block;
+    }
+
+    .yt-guard-badge {
+      position: absolute;
+      bottom: 8px;
+      right: 12px;
+      font-size: 10px;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(0, 0, 0, 0.7);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+      pointer-events: none;
+      opacity: 0.7;
+    }
+
+    /* Barra inferior con botones de compra y descarga (Siempre libres y sin obstrucción) */
+    .yt-action-bar {
+      margin-top: 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding-top: 16px;
+      border-top: 1px solid #292524;
+    }
+
+    .yt-action-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    /* Modal de compra y recibo */
+    .yt-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+
+    .yt-modal-backdrop.open {
+      display: flex;
+    }
+
+    .yt-modal-card {
+      background: #1c1917;
+      border: 1px solid #44403c;
+      border-radius: 24px;
+      max-width: 480px;
+      width: 100%;
+      padding: 28px;
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9);
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      animation: modalScale 0.25s ease-out;
+    }
+
+    @keyframes modalScale {
+      from { transform: scale(0.95); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    .yt-modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .yt-modal-close {
+      background: none;
+      border: none;
+      color: #a8a29e;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    /* Toast notification */
+    .yt-toast {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1c1917;
+      border: 1px solid #57534e;
+      color: #fafaf9;
+      padding: 12px 24px;
+      border-radius: 999px;
+      font-size: 13px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+      z-index: 200;
+      display: none;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .yt-toast.show {
+      display: flex;
+      animation: toastIn 0.3s ease-out;
+    }
+
+    @keyframes toastIn {
+      from { transform: translate(-50%, 20px); opacity: 0; }
+      to { transform: translate(-50%, 0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="yt-module-wrapper">
+
+    <!-- ======================================================================
+         CABECERA DEL MÓDULO (DISEÑO ESPIRITUAL Y ADAPTABLE - ARMONIZADO CON TIKTOK)
+         ====================================================================== -->
+    <header class="yt-hero-card" style="background: linear-gradient(135deg, rgba(255, 228, 230, 0.95), rgba(254, 243, 199, 0.95)); border: 1px solid rgba(251, 113, 133, 0.4); color: #1c1917;">
+      <div class="yt-hero-info">
+        <div class="yt-badge" style="background: rgba(255, 255, 255, 0.95); border: 1px solid rgba(244, 63, 94, 0.4); color: #9f1239;">
+          <span class="yt-badge-dot" style="background: #f43f5e;"></span>
+          <span>Reflexiones de Amor Propio en Video · YouTube</span>
+          <span style="background: #ffe4e6; color: #9f1239; padding: 2px 8px; border-radius: 999px; font-size: 10px; font-weight: 700; margin-left: 6px;">
+            $1.75 USD c/u
+          </span>
+        </div>
+        <h1 class="yt-title" style="color: #1c1917; font-family: 'Playfair Display', Georgia, serif;">Videos de YouTube Gallery</h1>
+        <p class="yt-description" style="color: #44403c;">
+          Un espacio sagrado e independiente de conexión audiovisual. Cada video combina reflexiones profundas de 
+          auto-honra, meditaciones guiadas y la frecuencia transformadora del Ho&apos;oponopono para nutrir tu amor propio día a día.
+        </p>
+        <div class="yt-features-list">
+          <span class="yt-feature-tag" style="background: rgba(255, 255, 255, 0.85); color: #1c1917; border-color: #e7e5e4;">🛡️ Acceso Aparte</span>
+          <span class="yt-feature-tag" style="background: rgba(255, 255, 255, 0.85); color: #1c1917; border-color: #e7e5e4;">📱 100% Celular, Tablet & Notebook</span>
+          <span class="yt-feature-tag" style="background: rgba(255, 255, 255, 0.85); color: #1c1917; border-color: #e7e5e4;">✨ Precio: $1.75 USD</span>
+          <span class="yt-feature-tag" style="background: rgba(255, 255, 255, 0.85); color: #1c1917; border-color: #e7e5e4;">☁️ AWS Capa Gratuita</span>
+        </div>
+      </div>
+
+      <!-- Tarjeta de Adquisición / Comprobante - Exacta a TikTok -->
+      <div class="yt-pricing-box" id="pricingBox" style="background: linear-gradient(180deg, #1c1917, #0c0a09); border: 1px solid rgba(68, 64, 60, 0.8); color: #ffffff;">
+        <div class="yt-price-label" style="color: #fda4af; font-weight: 700;">Aporte Único e Independiente</div>
+        <div class="yt-price-amount" style="display: flex; align-items: baseline; justify-content: center; gap: 4px;">
+          <span class="yt-price-val" style="font-size: 46px; font-weight: 800; color: #ffffff; letter-spacing: -0.03em;">$1.75</span>
+          <span class="yt-price-curr" style="color: #a8a29e; font-size: 14px; font-weight: 600;">USD</span>
+        </div>
+        <div style="font-size: 11px; color: #a8a29e; line-height: 1.4;">
+          Equivalente aproximado en moneda local (ARS / USD)
+        </div>
+        <button class="yt-btn yt-btn-primary" id="btnBuy" onclick="openPaymentModal()" style="background: linear-gradient(135deg, #f43f5e, #e11d48, #d97706); font-weight: 700; border-radius: 16px; padding: 14px;">
+          Adquirir Acceso por $1.75 USD
+        </button>
+        <button class="yt-btn yt-btn-success" id="btnDownload" style="display:none;" onclick="downloadReceipt()">
+          📥 Descargar Comprobante ($1.75 USD)
+        </button>
+        <div style="font-size: 11px; color: #a8a29e; font-style: italic;">
+          🔒 Pasarela Segura SSL · Sin cobros sorpresa
+        </div>
+      </div>
+    </header>
+
+    <!-- ======================================================================
+         BANNER DE LÓGICA TEMPORAL (OCTUBRE 2026 vs ENERO 2027)
+         ====================================================================== -->
+    <div class="yt-status-banner">
+      <div class="yt-status-text" id="statusMessage">
+        Verificando fecha del dispositivo...
+      </div>
+      <button class="yt-simulate-btn" id="btnToggleSimulate" onclick="toggleSimulateDate()">
+        Probar Lógica 2027
+      </button>
+    </div>
+
+    <!-- ======================================================================
+         MARCO DEL REPRODUCTOR ELFSIGHT YOUTUBE GALLERY
+         ====================================================================== -->
+    <main class="yt-player-outer">
+      <div class="yt-player-inner" id="widgetContainer">
+
+        <!-- ==================================================================
+             CÓDIGO DE ELFSIGHT PROPORCIONADO POR EL USUARIO
+             <!-- Elfsight YouTube Gallery | Untitled YouTube Gallery -->
+             <script src="https://elfsightcdn.com/platform.js" async></script>
+             <div class="elfsight-app-d3f035eb-ca5f-4c91-9541-98973d6fe4e4" data-elfsight-app-lazy></div>
+             ================================================================== -->
+        <div class="elfsight-app-d3f035eb-ca5f-4c91-9541-98973d6fe4e4" data-elfsight-app-lazy style="width: 100%;"></div>
+
+        <!-- 
+          CAPA INVISIBLE RESPONSIVA PARA REPRODUCCIÓN CONTINUA (ENERO 2027):
+          Se activa de forma automática a partir del 01/01/2027 sobre la barra
+          de controles para deshabilitar o bloquear el botón de Stop/Pausa.
+        -->
+        <div class="yt-invisible-pause-guard" id="pauseGuardLayer">
+          <div class="yt-guard-badge">🛡️ Reproducción Continua Protegida 2027</div>
+        </div>
+      </div>
+
+      <!-- Barra de acciones libres (Siempre libres de obstrucción) -->
+      <footer class="yt-action-bar">
+        <div style="font-size: 12px; color: var(--text-muted); display: flex; align-items: center; gap: 6px;">
+          <span>Elfsight YouTube Gallery Feed</span>
+          <span>·</span>
+          <span>Acceso Independiente al Almanaque</span>
+        </div>
+        <div class="yt-action-buttons">
+          <button class="yt-btn yt-btn-secondary" style="width: auto; padding: 8px 16px;" onclick="triggerSupport()">
+            💖 Apoyar Proyecto ($1.25)
+          </button>
+          <button class="yt-btn yt-btn-primary" id="btnBottomBuy" style="width: auto; padding: 8px 16px;" onclick="openPaymentModal()">
+            Comprar ($1.75 USD)
+          </button>
+        </div>
+      </footer>
+    </main>
+
+  </div>
+
+  <!-- ======================================================================
+       MODAL DE PAGO INTEGRADO ($1.75 USD)
+       ====================================================================== -->
+  <div class="yt-modal-backdrop" id="paymentModal">
+    <div class="yt-modal-card">
+      <div class="yt-modal-header">
+        <h3 style="font-family: var(--font-serif); font-size: 22px; color: #fafaf9;">Pasarela Segura de Pago</h3>
+        <button class="yt-modal-close" onclick="closePaymentModal()">&times;</button>
+      </div>
+      <p style="font-size: 13px; color: var(--text-muted); line-height: 1.5;">
+        Acceso al <strong>Módulo de YouTube Gallery ($1.75 USD)</strong> del Almanaque de Amor Propio. Compatible con PayPal, Mercado Pago o Tarjetas Internacionales.
+      </p>
+      <div style="background: #141210; padding: 16px; border-radius: 12px; border: 1px solid #3a3532; display: flex; justify-content: space-between; align-items: center;">
+        <span style="font-size: 13px; color: #d6d3d1;">Total a abonar:</span>
+        <span style="font-size: 20px; font-weight: 700; color: #f59e0b;">$1.75 USD</span>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <button class="yt-btn yt-btn-primary" onclick="simulatePaymentCompletion('PayPal Checkout')">
+          Pagar con PayPal ($1.75 USD)
+        </button>
+        <button class="yt-btn yt-btn-secondary" onclick="simulatePaymentCompletion('Mercado Pago')">
+          Pagar con Mercado Pago
+        </button>
+      </div>
+      <div style="font-size: 11px; color: var(--text-muted); text-align: center;">
+        Al ser un producto digital y de acceso informático inmediato, no admite devoluciones conforme al Art. 34 bis Ley 24.240.
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast flotante -->
+  <div class="yt-toast" id="toastBox"></div>
+
+  <!-- ==========================================================================
+       SCRIPT EN JAVASCRIPT NATIVO:
+       1. Verificación de compra y almacenamiento local
+       2. Lógica Temporal de Bloqueo por Fecha (01/01/2027)
+       3. Activación de la Capa Invisible Responsiva
+       4. Descarga del Comprobante Digital
+       ========================================================================== -->
+  <script>
+    (function () {
+      'use strict';
+
+      // 1. Configuración y variables principales
+      var UNLOCK_DATE_2027 = new Date('2027-01-01T00:00:00');
+      var isSimulating2027 = false;
+      var hasPaidAccess = localStorage.getItem('almanaque_youtube_access') === 'true';
+
+      var pauseGuard = document.getElementById('pauseGuardLayer');
+      var statusMsg = document.getElementById('statusMessage');
+      var btnToggleSim = document.getElementById('btnToggleSimulate');
+      var btnBuy = document.getElementById('btnBuy');
+      var btnBottomBuy = document.getElementById('btnBottomBuy');
+      var btnDownload = document.getElementById('btnDownload');
+      var toastBox = document.getElementById('toastBox');
+      var paymentModal = document.getElementById('paymentModal');
+
+      // 2. Función para mostrar notificaciones estilo toast
+      function showToast(msg) {
+        if (!toastBox) return;
+        toastBox.textContent = msg;
+        toastBox.classList.add('show');
+        setTimeout(function () {
+          toastBox.classList.remove('show');
+        }, 3500);
+      }
+
+      // 3. Actualizar interfaz según el estado de compra
+      function updatePurchaseUI() {
+        if (hasPaidAccess) {
+          if (btnBuy) btnBuy.style.display = 'none';
+          if (btnBottomBuy) {
+            btnBottomBuy.textContent = 'Acceso Activo ✅';
+            btnBottomBuy.classList.remove('yt-btn-primary');
+            btnBottomBuy.classList.add('yt-btn-success');
+            btnBottomBuy.onclick = downloadReceipt;
+          }
+          if (btnDownload) btnDownload.style.display = 'inline-flex';
+        } else {
+          if (btnBuy) btnBuy.style.display = 'inline-flex';
+          if (btnDownload) btnDownload.style.display = 'none';
+        }
+      }
+
+      // 4. LÓGICA TEMPORAL EN JAVASCRIPT NATIVO:
+      // Verifica la fecha del sistema del usuario:
+      // - Preventa (Antes del 01/01/2027): El reproductor funciona normal y los botones de compra están completamente operativos.
+      // - A partir del 01/01/2027: El script activa de forma automática una capa invisible responsiva sobre la barra de controles de Elfsight
+      //   para deshabilitar o bloquear el botón de 'Stop' o pausa, forzando la reproducción continua del video en celular, tablet y notebook,
+      //   sin obstruir en ningún momento los botones de compra y descarga.
+      function checkDateLogic() {
+        var now = isSimulating2027 ? new Date('2027-01-02T12:00:00') : new Date();
+        var is2027OrLater = now >= UNLOCK_DATE_2027;
+
+        if (is2027OrLater) {
+          // Activar capa invisible responsiva protectora
+          pauseGuard.classList.add('active');
+          statusMsg.innerHTML = '<span class="yt-status-highlight">🛡️ Modo 2027 Activo:</span> Capa invisible protectora activada. El botón de Stop/Pausa ha sido deshabilitado para forzar la reproducción ininterrumpida sin obstruir las compras ni descargas.';
+          btnToggleSim.textContent = isSimulating2027 ? 'Restaurar Fecha Actual' : 'Simulación Activa';
+        } else {
+          // Preventa normal (2026)
+          pauseGuard.classList.remove('active');
+          var diffMs = UNLOCK_DATE_2027.getTime() - now.getTime();
+          var diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+          statusMsg.innerHTML = '✨ <strong>Preventa Activa (' + now.toLocaleDateString() + '):</strong> Reproductor en funcionamiento libre. Faltan <span class="yt-status-highlight">' + diffDays + ' días</span> para la transición automática a reproducción continua.';
+          btnToggleSim.textContent = 'Probar Lógica 2027';
+        }
+      }
+
+      // 5. Intercepción nativa en la capa de guardia para eventos de clic/touch
+      pauseGuard.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        showToast('🛡️ Reproducción continua protegida: Botón de pausa bloqueado según programación 2027.');
+      });
+
+      // 6. Alternar simulación para que el creador compruebe ambos estados
+      window.toggleSimulateDate = function () {
+        isSimulating2027 = !isSimulating2027;
+        checkDateLogic();
+        showToast(isSimulating2027 ? '✨ Simulación 2027 activada: Capa invisible activada' : '🕒 Restaurada fecha del sistema');
+      };
+
+      // 7. Manejo del Modal de Pago
+      window.openPaymentModal = function () {
+        paymentModal.classList.add('open');
+      };
+
+      window.closePaymentModal = function () {
+        paymentModal.classList.remove('open');
+      };
+
+      window.simulatePaymentCompletion = function (gateway) {
+        hasPaidAccess = true;
+        localStorage.setItem('almanaque_youtube_access', 'true');
+        closePaymentModal();
+        updatePurchaseUI();
+        showToast('🎉 ¡Pago de $1.75 USD procesado por ' + gateway + '! Acceso activado.');
+        downloadReceipt();
+      };
+
+      // 8. Generación y descarga del comprobante digital
+      window.downloadReceipt = function () {
+        var txId = 'YT_' + Date.now();
+        var dateStr = new Date().toISOString().split('T')[0];
+        var receiptText = [
+          '========================================================================',
+          'ALMANAQUE DE AMOR PROPIO Y AUTOESTIMA',
+          'COMPROBANTE DE ACCESO: MÓDULO Y GALERÍA DE YOUTUBE ($1.75 USD)',
+          '========================================================================',
+          '',
+          'ID de Transacción: ' + txId,
+          'Fecha de Emisión: ' + dateStr,
+          'Monto: $1.75 USD',
+          'Concepto: Módulo de YouTube Gallery - Almanaque de Amor Propio',
+          'Estado: Pago Confirmado y Acceso Activo',
+          '',
+          'POLÍTICA DE PRODUCTO DIGITAL:',
+          'Conforme al Art. 34 bis Ley 24.240 y normativas internacionales de productos',
+          'intangibles digitales, este acceso ya no admite devoluciones tras su habilitación.',
+          '',
+          'LÓGICA TEMPORAL PROGRAMADA:',
+          '- Preventa (2026): Reproductor y controles operativos.',
+          '- A partir del 01/01/2027: Capa invisible responsiva protectora activa sobre la barra de controles para asegurar reproducción continua ininterrumpida en celular, tablet y notebook.',
+          '- Botones de compra y descarga: 100% operativos permanentemente sin obstrucción.',
+          '',
+          '¡Gracias por acompañar este camino de amor propio y transformación interior!',
+          '========================================================================'
+        ].join('\n');
+
+        var blob = new Blob([receiptText], { type: 'text/plain;charset=utf-8' });
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url;
+        a.download = 'Comprobante_Acceso_YouTube_' + txId + '.txt';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('📥 Comprobante digital descargado.');
+      };
+
+      window.triggerSupport = function () {
+        showToast('💖 Redirigiendo a Apoya este proyecto ($1.25)...');
+      };
+
+      // 9. Ejecutar al iniciar
+      updatePurchaseUI();
+      checkDateLogic();
+      setInterval(checkDateLogic, 10000);
+    })();
+  </script>
+</body>
+</html>
